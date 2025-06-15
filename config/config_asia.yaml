@@ -1,0 +1,22 @@
+# config/config_asia.yaml
+
+region: "Asia"
+batch_size: 512
+num_epochs: 500
+random_seed: 42
+
+model_params:
+  attn_dropout: 0.09
+  ff_dropout: 0.23
+  num_pos_freqs: 64
+  depth: 6
+  heads: 16
+  dim: 64
+
+optimizer_params:
+  lr: 4e-4
+  weight_decay: 4e-4
+
+loss_params:
+  alpha: 0.5
+
