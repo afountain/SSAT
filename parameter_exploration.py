@@ -1,6 +1,6 @@
 # parameter_exploration.py
 import torch
-from train_module_ssat, preprocess import set_random_seed, load_and_preprocess_data, get_dataloaders, create_model, train_model
+from train_module_ssat import preprocess, set_random_seed, load_and_preprocess_data, get_dataloaders, create_model, train_model
 from fttmaelossv7 import CombinedLoss
 import torch.optim as optim
 import itertools
